@@ -1,0 +1,1043 @@
+{
+    "classroom_info": {
+        "building": "28号楼",
+        "classroom": "A403",
+        "floor": "4"
+    },
+    "courses": [
+        {
+            "class_name": "模拟电子技术A[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "day": 1,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "李琨"
+        },
+        {
+            "class_name": "大学物理C[08]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "巩雪"
+        },
+        {
+            "class_name": "科技英语读写[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 3,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "白扬博"
+        },
+        {
+            "class_name": "马克思主义基本原理[06]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "day": 4,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "刘祥军"
+        },
+        {
+            "class_name": "化学工程与工艺专业导论[01]",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "尹晓红,孙喆,刘勇,张铭"
+        },
+        {
+            "class_name": "现当代名家名篇导读[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 1,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "杨会"
+        },
+        {
+            "class_name": "物流系统仿真[01]",
+            "weeks": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "day": 2,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "唐燕"
+        },
+        {
+            "class_name": "模拟电子技术A[03]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "day": 3,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "姜道连"
+        },
+        {
+            "class_name": "西方文化概览[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 4,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "农郁"
+        },
+        {
+            "class_name": "船舶信号[01]",
+            "weeks": [
+                1,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "宋长亮"
+        },
+        {
+            "class_name": "马克思主义基本原理[06]",
+            "weeks": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "刘祥军"
+        },
+        {
+            "class_name": "形势与政策1[56]",
+            "weeks": [
+                8,
+                10
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "吴杨"
+        },
+        {
+            "class_name": "形势与政策3[11]",
+            "weeks": [
+                12,
+                14
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "陈彦婷"
+        },
+        {
+            "class_name": "形势与政策1[34]",
+            "weeks": [
+                4,
+                6
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "吴杨"
+        },
+        {
+            "class_name": "形势与政策3[46]",
+            "weeks": [
+                8,
+                10
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "汤雁"
+        },
+        {
+            "class_name": "大学生心理健康教育[07]",
+            "weeks": [
+                3,
+                7,
+                11
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "郑雁阳"
+        },
+        {
+            "class_name": "形势与政策3[48]",
+            "weeks": [
+                12,
+                14
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "汤雁"
+        },
+        {
+            "class_name": "大学生心理健康教育[01]",
+            "weeks": [
+                3,
+                7,
+                11
+            ],
+            "day": 2,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "朱立文"
+        },
+        {
+            "class_name": "形势与政策1[25]",
+            "weeks": [
+                4,
+                6
+            ],
+            "day": 2,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "张磊"
+        },
+        {
+            "class_name": "形势与政策3[40]",
+            "weeks": [
+                14,
+                16
+            ],
+            "day": 2,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "吴杨"
+        },
+        {
+            "class_name": "形势与政策3[12]",
+            "weeks": [
+                3,
+                5
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "汤雁"
+        },
+        {
+            "class_name": "形势与政策3[54]",
+            "weeks": [
+                4,
+                6
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "汤雁"
+        },
+        {
+            "class_name": "形势与政策3[57]",
+            "weeks": [
+                7,
+                9
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "张世辉"
+        },
+        {
+            "class_name": "形势与政策1[53]",
+            "weeks": [
+                7,
+                11
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "吴杨"
+        },
+        {
+            "class_name": "形势与政策3[58]",
+            "weeks": [
+                12,
+                14
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "汤雁"
+        },
+        {
+            "class_name": "财务管理专业导论[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "day": 1,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "许宁宁"
+        },
+        {
+            "class_name": "形势与政策3[45]",
+            "weeks": [
+                14,
+                16
+            ],
+            "day": 1,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "汤雁"
+        },
+        {
+            "class_name": "形势与政策3[41]",
+            "weeks": [
+                8,
+                10
+            ],
+            "day": 4,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "张世辉"
+        },
+        {
+            "class_name": "形势与政策3[38]",
+            "weeks": [
+                4,
+                6
+            ],
+            "day": 4,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "汤雁"
+        }
+    ],
+    "events": [
+        {
+            "event_name": "考试",
+            "event_reason": "高等数学AⅠ",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 1,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "马克思主义基本原理",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 1,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "英语III（艺术）",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "思想道德与法治",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "智能电网技术",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 3,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "线性代数",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 7,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 7,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "王敏",
+            "weeks": [
+                3
+            ],
+            "day": 2,
+            "sections": [
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "补课",
+            "person": "杨宗霖",
+            "weeks": [
+                11
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "毛泽东思想和中国特色社会主义理论体系概论",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "2020级本科生德育答辩学生活动",
+            "person": "桑俊",
+            "weeks": [
+                9
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动",
+            "person": "冯宇",
+            "weeks": [
+                1
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 2,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "工程制图 AⅠ",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "通用管理知识概论",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "新生入学综合测试",
+            "person": "",
+            "weeks": [
+                1
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "大学英语（初级）",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "中国近现代史纲要",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "经济法",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 1,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 3,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 4,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        }
+    ]
+}

@@ -1,0 +1,757 @@
+{
+    "classroom_info": {
+        "building": "28号楼",
+        "classroom": "B404",
+        "floor": "4"
+    },
+    "courses": [
+        {
+            "class_name": "财务管理[03]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "day": 1,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "张晓丹"
+        },
+        {
+            "class_name": "全球化企业家精神[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "day": 4,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "于浩淼"
+        },
+        {
+            "class_name": "高级综合日语[01]",
+            "weeks": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "张昭君"
+        },
+        {
+            "class_name": "高级综合日语[02]",
+            "weeks": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "张昭君"
+        },
+        {
+            "class_name": "财务管理[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "day": 1,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "马智辉"
+        },
+        {
+            "class_name": "财务管理[03]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "day": 3,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "张晓丹"
+        },
+        {
+            "class_name": "全球化企业家精神[02]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "day": 4,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "于浩淼"
+        },
+        {
+            "class_name": "财务管理[02]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "马智辉"
+        },
+        {
+            "class_name": "高级综合日语[01]",
+            "weeks": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "张昭君"
+        },
+        {
+            "class_name": "高级综合日语[01]",
+            "weeks": [
+                5,
+                7,
+                9,
+                11,
+                13,
+                15
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "张昭君"
+        },
+        {
+            "class_name": "财务管理[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "马智辉"
+        },
+        {
+            "class_name": "高级综合日语[02]",
+            "weeks": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 2,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "张昭君"
+        },
+        {
+            "class_name": "高级综合日语[02]",
+            "weeks": [
+                5,
+                7,
+                9,
+                11,
+                13,
+                15
+            ],
+            "day": 4,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "张昭君"
+        }
+    ],
+    "events": [
+        {
+            "event_name": "教室借用",
+            "event_reason": "新生教育、班会",
+            "person": "牛瑞民",
+            "weeks": [
+                1,
+                2,
+                3
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动宣讲会",
+            "person": "于洁",
+            "weeks": [
+                4
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "招聘会",
+            "person": "张婷",
+            "weeks": [
+                9
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "研究生学院上课",
+            "person": "刘丽华",
+            "weeks": [
+                7
+            ],
+            "day": 3,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "补课",
+            "person": "杨玉玲",
+            "weeks": [
+                13
+            ],
+            "day": 4,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "新生教育，班会",
+            "person": "牛瑞民",
+            "weeks": [
+                1,
+                2,
+                3
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 7,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 7,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "国际贸易",
+            "person": "",
+            "weeks": [
+                16
+            ],
+            "day": 1,
+            "sections": [
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "高级日语Ⅲ",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "补课",
+            "person": "付强",
+            "weeks": [
+                6
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动",
+            "person": "孙丹婷",
+            "weeks": [
+                4
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动",
+            "person": "张恩智",
+            "weeks": [
+                1
+            ],
+            "day": 3,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 1,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 2,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 3,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动自习室",
+            "person": "李琼",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 4,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        }
+    ]
+}

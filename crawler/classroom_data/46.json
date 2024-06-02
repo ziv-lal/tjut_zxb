@@ -1,0 +1,831 @@
+{
+    "classroom_info": {
+        "building": "5号楼",
+        "classroom": "0302",
+        "floor": "3"
+    },
+    "courses": [
+        {
+            "class_name": "财务管理[01]",
+            "weeks": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 1,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "财务管理[02]",
+            "weeks": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 1,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "计算机项目管理[02]",
+            "weeks": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "高频电子线路[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 3,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "姜道连"
+        },
+        {
+            "class_name": "高级WEB技术[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 4,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "语音识别与合成技术[01]",
+            "weeks": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "岳有军"
+        },
+        {
+            "class_name": "基于Python的数据爬虫[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 2,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "杨鑫"
+        },
+        {
+            "class_name": "离散数学[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 3,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "张建峰"
+        },
+        {
+            "class_name": "高级WEB技术[02]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 4,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "财务管理[01]",
+            "weeks": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "计算思维与程序设计基础（C语言）[02]",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                18
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "彭旭东"
+        },
+        {
+            "class_name": "高级WEB技术[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "计算机项目管理[02]",
+            "weeks": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "财务管理[02]",
+            "weeks": [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ],
+            "teacher_name": "郭力杰"
+        },
+        {
+            "class_name": "高级WEB技术[02]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 2,
+            "sections": [
+                7,
+                8
+            ],
+            "teacher_name": "郭力杰"
+        }
+    ],
+    "events": [
+        {
+            "event_name": "教室借用",
+            "event_reason": "院排考试",
+            "person": "研究生院",
+            "weeks": [
+                20
+            ],
+            "day": 1,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "电力电子技术",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "机械系统设计",
+            "person": "",
+            "weeks": [
+                11
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "院排考试",
+            "person": "研究生院",
+            "weeks": [
+                20
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "刘芮伊",
+            "weeks": [
+                9
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "社会调查研究方法",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "宣讲会",
+            "person": "王志欣",
+            "weeks": [
+                3
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "集中授课-高等代数",
+            "person": "熊晓蕾",
+            "weeks": [
+                11
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "刘芮伊",
+            "weeks": [
+                8
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "化工课程设计",
+            "person": "刘珊",
+            "weeks": [
+                14
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "集中授课",
+            "person": "陈炜",
+            "weeks": [
+                9,
+                10
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动--“青马工程”集中学习",
+            "person": "陈尚尚",
+            "weeks": [
+                12
+            ],
+            "day": 3,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "新生入学综合测试",
+            "person": "",
+            "weeks": [
+                1
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "新生入学综合测试",
+            "person": "",
+            "weeks": [
+                1
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "社区概论",
+            "person": "",
+            "weeks": [
+                18
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "日语语言学概论",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动 学术沙龙",
+            "person": "李君",
+            "weeks": [
+                10
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "院排考试",
+            "person": "王志欣",
+            "weeks": [
+                3
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动（宿舍长会议）",
+            "person": "周伟楠",
+            "weeks": [
+                13
+            ],
+            "day": 4,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "量子力学",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 1,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 2,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 3,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 4,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        }
+    ]
+}

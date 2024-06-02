@@ -1,0 +1,636 @@
+{
+    "classroom_info": {
+        "building": "28号楼",
+        "classroom": "B304",
+        "floor": "3"
+    },
+    "courses": [
+        {
+            "class_name": "综合英语 Ⅲ[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "徐密娥"
+        },
+        {
+            "class_name": "基础日语Ⅰ[03]",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 3,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teacher_name": "孟会君"
+        },
+        {
+            "class_name": "设计史[01]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "day": 4,
+            "sections": [
+                1,
+                2
+            ],
+            "teacher_name": "张爱玲"
+        },
+        {
+            "class_name": "英语演讲与辩论[04]",
+            "weeks": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 5,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "齐珊珊"
+        },
+        {
+            "class_name": "英语课程设计[02]",
+            "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 1,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "常海潮"
+        },
+        {
+            "class_name": "基础日语Ⅰ[03]",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 2,
+            "sections": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "teacher_name": "孟会君"
+        },
+        {
+            "class_name": "基础日语Ⅰ[03]",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "day": 4,
+            "sections": [
+                3,
+                4
+            ],
+            "teacher_name": "孟会君"
+        }
+    ],
+    "events": [
+        {
+            "event_name": "考试",
+            "event_reason": "思想道德与法治",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 2,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "大学物理C",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 3,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "新生教育，班会",
+            "person": "牛瑞民",
+            "weeks": [
+                1,
+                2,
+                3
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "线性代数",
+            "person": "",
+            "weeks": [
+                19
+            ],
+            "day": 5,
+            "sections": [
+                1,
+                2
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 6,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 7,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 7,
+            "sections": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动-22计算机1班班会",
+            "person": "张渊",
+            "weeks": [
+                2
+            ],
+            "day": 2,
+            "sections": [
+                6,
+                7
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "通用管理知识概论",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 2,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "学生活动",
+            "person": "牛瑞民",
+            "weeks": [
+                1,
+                2,
+                3
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "毛泽东思想和中国特色社会主义理论体系概论",
+            "person": "",
+            "weeks": [
+                20
+            ],
+            "day": 1,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "考试",
+            "event_reason": "新生入学综合测试",
+            "person": "",
+            "weeks": [
+                1
+            ],
+            "day": 3,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "新生教育，班会",
+            "person": "牛瑞民",
+            "weeks": [
+                1,
+                2,
+                3
+            ],
+            "day": 4,
+            "sections": [
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                5,
+                6
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                15
+            ],
+            "day": 5,
+            "sections": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "布置考场",
+            "person": "郝丽芳",
+            "weeks": [
+                16
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "开会",
+            "person": "齐霖",
+            "weeks": [
+                14
+            ],
+            "day": 5,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 1,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 2,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 3,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        },
+        {
+            "event_name": "教室借用",
+            "event_reason": "自习室",
+            "person": "热米兰",
+            "weeks": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "day": 4,
+            "sections": [
+                9,
+                10,
+                11
+            ]
+        }
+    ]
+}

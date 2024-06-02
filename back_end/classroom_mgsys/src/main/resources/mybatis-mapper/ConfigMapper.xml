@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.ConfigMapper">
+
+    <resultMap id="Config" type="com.lal.classroom_mgsys.pojo.model.Config" >
+        <result column="id" property="id" />
+        <result column="is_apply" property="isApply" />
+        <result column="notification" property="notification" />
+        <result column="term_start_time" property="termStartTime" />
+        <result column="term_end_time" property="termEndTime" />
+        <result column="last_update_time" property="lastUpdateTime" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+          id,
+          is_apply,
+          notification,
+          term_start_time,
+          term_end_time,
+          last_update_time
+    </sql>
+
+    <select id="getConfig" resultMap="Config">
+        SELECT <include refid="Base_Column_List" />
+        FROM config
+        ORDER BY id ASC
+    </select>
+
+    <update id="updateConfig" parameterType="com.lal.classroom_mgsys.pojo.model.Config">
+        UPDATE config
+        SET
+            is_apply = #{isApply},
+            notification = #{notification},
+            term_start_time = #{termStartTime},
+            term_end_time = #{termEndTime},
+            last_update_time = now()
+        WHERE id = #{id}
+    </update>
+
+    <select id="getNotification" resultType="java.lang.String">
+        SELECT notification
+        FROM config
+    </select>
+
+</mapper>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.BuildingMapper">
+
+    <resultMap id="Building" type="com.lal.classroom_mgsys.pojo.model.Building" >
+        <result column="id" property="id" />
+        <result column="building_name" property="buildingName"/>
+        <result column="url" property="url"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,
+		building_name,
+        url
+    </sql>
+
+    <select id="findAll" resultMap="Building">
+        SELECT <include refid="Base_Column_List" />
+        FROM class_building
+        ORDER BY id ASC
+    </select>
+
+    <select id="findById" resultMap="Building">
+        SELECT <include refid="Base_Column_List" />
+        FROM class_building
+        WHERE id = #{id}
+    </select>
+
+
+</mapper>

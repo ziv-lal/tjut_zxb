@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.ClassroomStatusMapper">
+
+    <resultMap id="ClassroomStatus" type="com.lal.classroom_mgsys.pojo.model.ClassroomStatus" >
+        <result column="id" property="id" />
+        <result column="classroom_id" property="classroomId" />
+        <result column="date" property="date" />
+        <result column="status" property="status" />
+        <result column="mark" property="mark" />
+    </resultMap>
+
+    <resultMap id="BuildingClassroomStatusInfo" type="com.lal.classroom_mgsys.pojo.model.BuildingClassroomStatusInfo" >
+        <result column="id" property="id" />
+        <result column="class_building_id" property="buildingId" />
+        <result column="classroom_id" property="classroomId" />
+        <result column="classroom_number" property="classroomName" />
+        <result column="floor" property="floor" />
+        <result column="date" property="date" />
+        <result column="status" property="status" />
+        <result column="mark" property="mark" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+          id,
+          building_id,
+          `date`,
+          status,
+          mark
+    </sql>
+
+    <select id="getStatusByClassroomIdAndDate" resultMap="ClassroomStatus">
+        SELECT <include refid="Base_Column_List" />
+        FROM classroom_status
+        WHERE classroom_id = #{classroomId} and `date` = #{date}
+    </select>
+
+    <delete id="clearData">
+        DELETE FROM classroom_status
+    </delete>
+
+    <insert id="addClassroomStatus" parameterType="com.lal.classroom_mgsys.pojo.model.ClassroomStatus">
+        INSERT INTO classroom_status(classroom_id, date, status, mark)
+        VALUES (#{classroomId}, #{date}, #{status}, #{mark})
+    </insert>
+
+    <select id="getByBuildingIdAndDateAndMark" resultMap="BuildingClassroomStatusInfo">
+        select
+            cs.id,
+            cr.class_building_id,
+            cs.classroom_id, cr.floor,
+            cr.classroom_number,
+            cs.date,
+            cs.status,
+            cs.mark
+        from
+            classroom_status as cs join classrooms as cr on cs.classroom_id = cr.id
+        where class_building_id = #{buildingId} and date = #{date} and mark = #{mark}
+    </select>
+</mapper>

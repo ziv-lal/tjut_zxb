@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.UserMapper">
+
+    <resultMap id="User" type="com.lal.classroom_mgsys.pojo.model.User" >
+        <result column="id" property="id" />
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+    </resultMap>
+
+    <resultMap id="UserInfo" type="com.lal.classroom_mgsys.pojo.model.UserInfo" >
+        <result column="if_accept" property="ifAccept"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,
+		username,
+        password
+    </sql>
+
+    <select id="loadByUsername" resultMap="User">
+        SELECT <include refid="Base_Column_List" />
+        FROM `user`
+        where username = #{username}
+    </select>
+
+    <update id="update" parameterType="com.lal.classroom_mgsys.pojo.model.User" >
+        UPDATE `user`
+        SET password = #{password}
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateUserInfo" parameterType="com.lal.classroom_mgsys.pojo.model.UserInfo" >
+        UPDATE `user`
+        SET nickname = #{nickname}, username = #{username}, avatar = #{avatar}
+        WHERE id = #{id}
+    </update>
+
+    <select id="getUserInfoById" resultMap="UserInfo">
+        SELECT *
+        FROM `user`
+        where id = #{id}
+    </select>
+
+    <select id="findAll" resultMap="UserInfo">
+        SELECT *
+        FROM `user`
+        WHERE id != 1
+    </select>
+
+    <update id="updateAudit" >
+        UPDATE `user`
+        SET if_accept = #{status}
+        WHERE id = #{id}
+    </update>
+
+    <insert id="insert" parameterType="com.lal.classroom_mgsys.pojo.model.UserInfo">
+        insert into user(username, password, role, nickname, if_accept)
+        values (#{username}, #{password}, 'teacher', #{nickname}, 0)
+    </insert>
+</mapper>

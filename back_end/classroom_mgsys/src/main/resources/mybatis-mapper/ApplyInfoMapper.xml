@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.ApplyInfoMapper">
+
+    <resultMap id="ApplyInfo" type="com.lal.classroom_mgsys.pojo.model.ApplyInfo" >
+        <result column="id" property="id" />
+        <result column="classroom_number" property="classroom" />
+        <result column="building_name" property="building"/>
+        <result column="date" property="date" />
+        <result column="sections" property="sections" />
+        <result column="event" property="event" />
+        <result column="reason" property="reason" />
+        <result column="apply_user" property="applyUser" />
+        <result column="contact" property="contact" />
+        <result column="status" property="status" />
+        <result column="tips" property="tips" />
+        <result column="create_time" property="createTime" />
+        <result column="cope_time" property="copeTime" />
+    </resultMap>
+
+    <resultMap id="Apply" type="com.lal.classroom_mgsys.pojo.model.Apply" >
+        <result column="id" property="id" />
+        <result column="classroom_id" property="classroomId" />
+        <result column="sections" property="sections" />
+        <result column="date" property="date" />
+        <result column="event" property="event" />
+        <result column="reason" property="reason" />
+        <result column="apply_user" property="applyUser" />
+        <result column="contact" property="contact" />
+        <result column="status" property="status" />
+        <result column="tips" property="tips" />
+        <result column="create_time" property="createTime" />
+        <result column="cope_time" property="copeTime" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,
+        classroom_number,
+        building_name,
+        `date`,
+        sections,
+        `event`,
+        reason,
+        apply_user,
+        contact,
+        `status`,
+        tips,
+        create_time,
+        cope_time
+    </sql>
+
+    <select id="pageList" resultMap="ApplyInfo">
+        SELECT <include refid="Base_Column_List" />
+        FROM apply_info
+        <trim prefix="WHERE" prefixOverrides="AND | OR">
+            <if test="event != null and event != ''">
+                AND event like CONCAT(CONCAT('%', #{event}), '%')
+            </if>
+            <if test="reason != null and reason != ''">
+                AND reason like CONCAT(CONCAT('%', #{reason}), '%')
+            </if>
+            <if test="contact != null and contact != ''">
+                AND contact like CONCAT(CONCAT('%', #{contact}), '%')
+            </if>
+            <if test="applyUser != null and applyUser != ''">
+                AND apply_user like CONCAT(CONCAT('%', #{applyUser}), '%')
+            </if>
+            <if test="status gt -2">
+                AND status = #{status}
+            </if>
+        </trim>
+        ORDER BY id DESC
+        LIMIT #{offset}, #{pagesize}
+    </select>
+
+    <select id="pageListCount" resultType="int">
+        SELECT count(1)
+        FROM apply_info
+        <trim prefix="WHERE" prefixOverrides="AND | OR">
+            <if test="event != null and event != ''">
+                AND event like CONCAT(CONCAT('%', #{event}), '%')
+            </if>
+            <if test="reason != null and reason != ''">
+                AND reason like CONCAT(CONCAT('%', #{reason}), '%')
+            </if>
+            <if test="contact != null and contact != ''">
+                AND contact like CONCAT(CONCAT('%', #{contact}), '%')
+            </if>
+            <if test="applyUser != null and applyUser != ''">
+                AND apply_user like CONCAT(CONCAT('%', #{applyUser}), '%')
+            </if>
+            <if test="status gt -2">
+                AND status = #{status}
+            </if>
+        </trim>
+    </select>
+    <select id="totalCount" resultType="int">
+        SELECT count(1)
+        FROM apply_info
+    </select>
+
+    <select id="getById" resultMap="Apply">
+        SELECT
+            id,
+            classroom_id,
+            sections,
+            `date`,
+            `event`,
+            reason,
+            apply_user,
+            contact,
+            `status`,
+            tips,
+            create_time,
+            cope_time
+        FROM apply
+        WHERE id = #{id}
+    </select>
+
+    <update id="updateStatusById">
+        UPDATE apply
+        SET cope_time = now(), `status` = #{status}
+        WHERE id = #{id}
+    </update>
+
+    <insert id="addApply" parameterType="com.lal.classroom_mgsys.pojo.model.Apply" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO apply(classroom_id, sections, event, reason, date, create_time, cope_time, status, apply_user, contact, tips)
+        VALUES (#{classroomId}, #{sections}, #{event}, #{reason}, #{date}, now(), now(), #{status}, #{applyUser}, #{contact}, #{tips})
+    </insert>
+</mapper>

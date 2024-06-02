@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.ClassroomsMapper">
+
+    <resultMap id="Classroom" type="com.lal.classroom_mgsys.pojo.model.Classroom" >
+        <result column="id" property="id" />
+        <result column="class_building_id" property="buildingId" />
+        <result column="floor" property="floor" />
+        <result column="classroom_number" property="classroomName" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+          id,
+          class_building_id,
+          floor,
+          classroom_number
+    </sql>
+
+    <select id="getClassroomsByBuildingId" resultMap="Classroom">
+        SELECT <include refid="Base_Column_List" />
+        FROM classrooms
+        WHERE class_building_id = #{buildingId}
+        ORDER BY classroom_number ASC
+    </select>
+
+    <select id="getClassroomById" resultMap="Classroom">
+        SELECT <include refid="Base_Column_List" />
+        FROM classrooms
+        WHERE id = #{id}
+    </select>
+
+    <select id="getAll" resultMap="Classroom">
+        SELECT <include refid="Base_Column_List"/>
+        FROM classrooms
+        ORDER BY classroom_number ASC
+    </select>
+
+</mapper>

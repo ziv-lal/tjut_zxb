@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lal.classroom_mgsys.mapper.ClassroomClassInfoMapper">
+
+    <resultMap id="ClassroomClassInfo" type="com.lal.classroom_mgsys.pojo.model.ClassroomClassInfo" >
+        <result column="id" property="id" />
+        <result column="apply_id" property="applyId" />
+        <result column="course_id" property="courseId" />
+        <result column="classroom_id" property="classroomId" />
+        <result column="classroom" property="classroom" />
+        <result column="building" property="building" />
+        <result column="course_name" property="courseName" />
+        <result column="teacher" property="teacher" />
+        <result column="event" property="event" />
+        <result column="reason" property="reason" />
+        <result column="apply_user" property="applyUser" />
+        <result column="sections" property="sections" />
+        <result column="date" property="date" />
+        <result column="is_class" property="isClass" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+          id,
+          apply_id,
+          course_id,
+          classroom_id,
+          classroom,
+          building,
+          course_name,
+          teacher,
+          `event`,
+          reason,
+          apply_user,
+          sections,
+          `date`,
+          is_class
+    </sql>
+
+    <select id="getByApplyIdAndDateAndClassroomId" resultMap="ClassroomClassInfo">
+        SELECT <include refid="Base_Column_List" />
+        FROM classroom_class_info
+        WHERE apply_id = #{applyId} and date = #{date} and classroom_id = #{classroomId}
+    </select>
+
+    <select id="getByCourseIdAndDateAndClassroomId" resultMap="ClassroomClassInfo">
+        SELECT <include refid="Base_Column_List" />
+        FROM classroom_class_info
+        WHERE course_id = #{courseId} and date = #{date} and classroom_id = #{classroomId}
+    </select>
+
+    <insert id="addClassroomApplyInfo">
+        INSERT INTO classroom_class(id, classroom_id, class_id, event_id, sections, class_date, is_class)
+        VALUES (NULL, #{classroomId}, NULL, #{applyId}, #{sections}, #{classDate}, #{isClass})
+    </insert>
+
+    <delete id="deleteByClassroomIdAndApplyIdAndDate">
+        DELETE FROM classroom_class
+        WHERE classroom_id = #{classroomId} and event_id = #{applyId} and class_date = #{date}
+    </delete>
+
+    <select id="getClassroomSectionListByClassroomIdAndDate" resultType="java.lang.String">
+        SELECT sections
+        FROM classroom_class
+        WHERE classroom_id = #{classroomId} and class_date = #{date}
+    </select>
+
+    <select id="getByClassroomIdAndDate" resultMap="ClassroomClassInfo">
+        SELECT <include refid="Base_Column_List" />
+        FROM classroom_class_info
+        WHERE classroom_id = #{classroomId} and date = #{date}
+    </select>
+</mapper>
