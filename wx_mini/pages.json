@@ -1,0 +1,70 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": 
+			{
+				"disableScroll": true
+			}
+		}    
+		,{
+            "path" : "pages/building/building",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/floor/floor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/classroom/classroom",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+    
+        ,{
+            "path" : "pages/book/book",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	// "style": "v2",
+	"globalStyle": {
+	"navigationBarTitleText": "TJUT自习吧",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F4F4", 
+    "navigationBarTextStyle": "black"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 1, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "apply", //模式名称
+				"path": "/pages/book/book", //启动页面，必选
+				"query": "building=1&classroom=0202&classBook=1&id=627" //启动参数，在页面的onLoad函数里面得到
+			},
+			{
+				"name": "test", //模式名称
+				"path": "/pages/book/book", //启动页面，必选
+				"query": "building=1&classroom=0202&classBook=1&id=627" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
