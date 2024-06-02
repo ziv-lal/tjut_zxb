@@ -67,9 +67,9 @@ tjut_zxb
 
 将课程表HTML解析成JSON文件，然后解析JSON文件，再入库
 
-<img src="/Users/ziv_l/Desktop/file/2024第一学期(大四下)/毕业项目/tjut_zxb/imgs/Python爬虫生成json文件样例.png" alt="Python爬虫生成json文件样例" style="zoom:25%;" />
+<img src="./imgs/Python爬虫生成json文件样例.png" alt="Python爬虫生成json文件样例" style="zoom:25%;" />
 
-![Python爬虫添加预约](/Users/ziv_l/Desktop/file/2024第一学期(大四下)/毕业项目/tjut_zxb/imgs/Python爬虫添加预约.png)
+![Python爬虫添加预约](./imgs/Python爬虫添加预约.png)
 
 ## 说明
 
